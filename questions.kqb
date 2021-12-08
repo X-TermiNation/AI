@@ -1,0 +1,81 @@
+# questions.kqb
+
+
+is_man($ans)
+	Is he a man?
+	---
+	$ans = yn
+
+is_super($ans)
+	Is he/she has a superhuman power?
+	---
+	$ans = yn
+
+is_alien($ans)
+	Is he/she came from other planet?
+	---
+	$ans = yn
+
+is_fly($ans)
+	Can he/she fly?
+	---
+	$ans = yn
+
+is_mask($ans)
+	Is he/she wearing a mask?
+	---
+	$ans = yn
+
+is_weapon($ans)
+	Is he/she wielding a weapon?
+	---
+	$ans = yn
+
+is_cape($ans)
+	Is he/she wearing a cape?
+	---
+	$ans = yn
+
+is_superpower($ans)
+	Does he/she has a superpower?
+	---
+	$ans = yn
+
+is_green($ans)
+	Is his/her color green?
+	---
+	$ans = yn
+
+is_black($ans)
+	Is his/her color black?
+	---
+	$ans = yn
+
+is_blue($ans)
+	Is his/her color blue?
+	---
+	$ans = yn
+
+is_red($ans)
+	Is his/her color red?
+	---
+	$ans = yn
+
+is_close($ans)
+	Is he/her a close combat fighter?
+	---
+	$ans = yn
+
+is_rich($ans)
+	Is he/her rich?
+	---
+	$ans = yn
+
+is_science($ans)
+	Is he/her a product of science?
+	---
+	$ans = yn
+
+	
+
+

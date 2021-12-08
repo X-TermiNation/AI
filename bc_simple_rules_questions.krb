@@ -1,0 +1,97 @@
+# bc_simple_rules.krb
+
+BlackWidow
+    use it_is(Black_Widow)
+    when
+        questions.is_man(False)
+        questions.is_super(False)
+        questions.is_alien(False)
+        questions.is_fly(False)
+        questions.is_mask(False)
+        questions.is_weapon(True)
+        questions.is_cape(False)
+        questions.is_superpower(False)
+
+ScarletWitch
+    use it_is(Scarlet_Witch)
+    when
+        questions.is_man(False)
+        questions.is_super(True)
+        questions.is_alien(False)
+        questions.is_fly(True)
+        questions.is_mask(False)
+        questions.is_weapon(False)
+        questions.is_cape(True)
+        questions.is_superpower(True)
+
+CaptainMarvel
+    use it_is(Captain_Marvel)
+    when
+        questions.is_man(False)
+        questions.is_super(True)
+        questions.is_alien(False)
+        questions.is_fly(True)
+        questions.is_mask(False)
+        questions.is_weapon(False)
+        questions.is_cape(False)
+        questions.is_superpower(True)
+
+Hulk
+    use it_is(Hulk)
+    when
+        questions.is_man(True)
+        questions.is_super(True)
+        questions.is_alien(False)
+        questions.is_fly(False)
+        questions.is_mask(False)
+        questions.is_weapon(False)
+        questions.is_cape(False)
+        questions.is_superpower(True)
+
+IronMan
+    use it_is(IronMan)
+    when
+        questions.is_man(True)
+        questions.is_super(False)
+        questions.is_alien(False)
+        questions.is_fly(True)
+        questions.is_mask(True)
+        questions.is_weapon(True)
+        questions.is_cape(False)
+        questions.is_superpower(False)
+
+Thor
+    use it_is(Thor)
+    when
+        questions.is_man(True)
+        questions.is_super(False)
+        questions.is_alien(True)
+        questions.is_fly(True)
+        questions.is_mask(False)
+        questions.is_weapon(True)
+        questions.is_cape(True)
+        questions.is_superpower(True)
+
+BlackPanther
+    use it_is(BlackPanther)
+    when
+        questions.is_man(True)
+        questions.is_super(False)
+        questions.is_alien(False)
+        questions.is_fly(False)
+        questions.is_mask(True)
+        questions.is_weapon(True)
+        questions.is_cape(False)
+        questions.is_superpower(True)
+
+AntMan
+    use it_is(AntMan)
+    when
+        questions.is_man(True)
+        questions.is_super(False)
+        questions.is_alien(False)
+        questions.is_fly(False)
+        questions.is_mask(True)
+        questions.is_weapon(True)
+        questions.is_cape(False)
+        questions.is_superpower(False)
